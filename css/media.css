@@ -1,0 +1,624 @@
+/* xs */
+@media (max-width:575px) {
+   /* 3-banner */
+.banner{
+    background-image: url(../images/banner/Friendship-and-Ambition-2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 50%;
+    border: none;
+}
+.banner-logo{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.slogan{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    
+}
+
+.banner-hr{
+    width: 55%;
+    height: 2px;
+    background-color: lightgray;
+    margin: auto;
+
+}
+.banner-h2{
+    margin-top: 20px;
+    color: #949494;
+    font-family: 'Trade Winds', cursive;
+    font-size: 20px; 
+
+}
+.banner-h2 span{
+    color:#87202f;
+    text-decoration: underline;
+}
+
+/* typed-animation */
+.type-animate{
+    text-align: center;
+    width: 100%;
+}   
+.type-animate h3{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+}
+/* new */
+
+.navnav{
+  background-color: rgba(255, 255, 255, 0.8) !important;
+
+}
+
+.sections-dropdown-menu{
+    position: absolute;
+    background-color: #6195ff;
+    border-radius: 5px;
+    text-align: center;
+    /* left: %; */
+    top: -55%;
+    right: 30%;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s , visibility .5s;
+    list-style: none;
+
+}
+.sections-dropdown-menu a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 4px;
+    display: block;
+}
+.sections-dropdown:hover .sections-dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: 2s;
+
+}
+
+
+
+
+/* myths&facts */
+.myths-facts{
+    width: 100%;
+    padding: 20px 0;
+    
+}
+.myths-facts .myths-facts-title span{
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    color: red;
+}
+.myths-facts .myths-facts-title{
+text-align: center;
+padding: 10px 0 30px 0;
+font-size: 25px;
+}
+.myths{
+    width: 100%;
+    background-color: #f78259;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0 ;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+.m-f-field{
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    background-color: #293462;
+    transition: 1s;
+    
+}
+.m-f-field:hover{
+clip-path: none;
+transform: translateX(0);
+
+
+
+}
+.m-f-field span{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;  
+    position: relative;
+    top: 25%;  
+}
+.facts{
+    width: 100%;
+    background-color: #00bcd4;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding:20px 15px 15px 20px;
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+
+.marketing-m-f{
+background-color: #fff;
+padding: 30px 0;
+}
+
+}
+
+
+
+
+/* Sm */
+@media (min-width:576px) and (max-width:768px) {
+     /* 3-banner */
+.banner{
+    background-image: url(../images/banner/Friendship-and-Ambition-2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 50%;
+    border: none;
+}
+.banner-logo{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.slogan{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    
+}
+
+.banner-hr{
+    width: 55%;
+    height: 2px;
+    background-color: lightgray;
+    margin: auto;
+
+}
+.banner-h2{
+    margin-top: 20px;
+    color: #949494;
+    font-family: 'Trade Winds', cursive;
+    font-size: 22px; 
+
+}
+.banner-h2 span{
+    color:#87202f;
+    text-decoration: underline;
+}
+
+/* typed-animation */
+.type-animate{
+    text-align: center;
+    width: 100%;
+}   
+.type-animate h3{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+
+.navnav{
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  
+  }
+  
+  .sections-dropdown-menu{
+      position: absolute;
+      background-color: #6195ff;
+      border-radius: 5px;
+      text-align: center;
+      /* left: %; */
+      top: -55%;
+      right: 30%;
+      width: 150px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .5s , visibility .5s;
+      list-style: none;
+  
+  }
+  .sections-dropdown-menu a{
+      text-decoration: none;
+      color: #ffffff;
+      padding: 4px;
+      display: block;
+  }
+  .sections-dropdown:hover .sections-dropdown-menu{
+      opacity: 1;
+      visibility: visible;
+      transition: 2s;
+  
+  }
+/* myths&facts */
+.myths-facts{
+    width: 100%;
+    padding: 20px 0;
+    
+}
+.myths-facts .myths-facts-title span{
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    color: red;
+}
+.myths-facts .myths-facts-title{
+text-align: center;
+padding: 10px 0 30px 0;
+font-size: 30px;
+}
+.myths{
+    width: 100%;
+    background-color: #f78259;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0 ;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+.m-f-field{
+    width: 25%;
+    height: 45px;
+    text-align: center;
+    margin: auto;
+    background-color: #293462;
+    transition: 1s;
+    
+}
+.m-f-field:hover{
+clip-path: none;
+transform: translateX(0);
+
+
+
+}
+.m-f-field span{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;  
+    position: relative;
+    top: 25%;  
+}
+.facts{
+    width: 100%;
+    background-color: #00bcd4;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding:20px 15px 15px 20px;
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+
+.marketing-m-f{
+background-color: #fff;
+padding: 30px 0;
+}
+}
+
+/* md */
+@media (min-width:769px) and (max-width:1050px) {
+    /* 3-banner */
+.banner{
+    background-image: url(../images/banner/Friendship-and-Ambition-2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 50%;
+    border: none;
+}
+.banner-logo{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.slogan{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    
+}
+
+.banner-hr{
+    width: 55%;
+    height: 2px;
+    background-color: lightgray;
+    margin: auto;
+
+}
+.banner-h2{
+    margin-top: 22px;
+    color: #949494;
+    font-family: 'Trade Winds', cursive;
+    font-size: 22px; 
+
+}
+.banner-h2 span{
+    color:#87202f;
+    text-decoration: underline;
+}
+
+/* typed-animation */
+.type-animate{
+    text-align: center;
+    width: 100%;
+}   
+.type-animate h3{
+    color: #fff;
+    padding-top: 22px;
+    font-size: 22px;
+}
+.navnav{
+    background-color: rgba(255, 255, 255, 0.8) !important;
+  
+  }
+  
+  .sections-dropdown-menu{
+      position: absolute;
+      background-color: #6195ff;
+      border-radius: 5px;
+      text-align: center;
+      /* left: %; */
+      top: -55%;
+      right: 30%;
+      width: 150px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .5s , visibility .5s;
+      list-style: none;
+  
+  }
+  .sections-dropdown-menu a{
+      text-decoration: none;
+      color: #ffffff;
+      padding: 4px;
+      display: block;
+  }
+  .sections-dropdown:hover .sections-dropdown-menu{
+      opacity: 1;
+      visibility: visible;
+      transition: 2s;
+  
+  }
+
+/* myths&facts */
+.myths-facts{
+    width: 100%;
+    padding: 20px 0;
+    
+}
+.myths-facts .myths-facts-title span{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    color: red;
+}
+.myths-facts .myths-facts-title{
+text-align: center;
+padding: 10px 0 30px 0;
+font-size: 35px;
+}
+.myths{
+    width: 100%;
+    background-color: #f78259;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0 ;
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+}
+.m-f-field{
+    width: 22%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    background-color: #293462;
+    transition: 1s;
+    
+}
+.m-f-field:hover{
+clip-path: none;
+transform: translateX(0);
+
+
+
+}
+.m-f-field span{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;  
+    position: relative;
+    top: 25%;  
+}
+.facts{
+    width: 100%;
+    background-color: #00bcd4;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding:20px 15px 15px 20px;
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+
+.marketing-m-f{
+background-color: #fff;
+padding: 30px 0;
+}
+}
+
+/* lg */
+@media (min-width:1051px) and (max-width:1390px) {
+       /* 3-banner */
+.banner{
+    background-image: url(../images/banner/Friendship-and-Ambition-2.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    width: 50%;
+    border: none;
+}
+.banner-logo{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.slogan{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    
+}
+
+.banner-hr{
+    width: 55%;
+    height: 2px;
+    background-color: lightgray;
+    margin: auto;
+
+}
+.banner-h2{
+    margin-top: 22px;
+    color: #949494;
+    font-family: 'Trade Winds', cursive;
+    font-size: 25px; 
+
+}
+.banner-h2 span{
+    color:#87202f;
+    text-decoration: underline;
+}
+
+/* typed-animation */
+.type-animate{
+    text-align: center;
+    width: 100%;
+}   
+.type-animate h3{
+    color: #fff;
+    padding-top: 25px;
+    font-size: 25px;
+}
+/* myths&facts */
+.myths-facts{
+    width: 100%;
+    padding: 20px 0;
+    
+}
+.myths-facts .myths-facts-title span{
+    font-family: 'Tangerine', cursive;
+    font-size: 65px;
+    color: red;
+}
+.myths-facts .myths-facts-title{
+text-align: center;
+padding: 10px 0 30px 0;
+font-size: 37px;
+}
+.myths{
+    width: 100%;
+    background-color: #f78259;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0 ;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.m-f-field{
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    background-color: #293462;
+    transition: 1s;
+    
+}
+.m-f-field:hover{
+clip-path: none;
+transform: translateX(0);
+
+
+
+}
+.m-f-field span{
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;  
+    position: relative;
+    top: 25%;  
+}
+.facts{
+    width: 100%;
+    background-color: #00bcd4;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius:0 ;
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding:20px 15px 15px 20px;
+    text-align: justify;
+    text-indent: 30px;
+    
+}
+
+.marketing-m-f{
+background-color: #fff;
+padding: 30px 0;
+}
+}

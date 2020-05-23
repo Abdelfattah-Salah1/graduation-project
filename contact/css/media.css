@@ -1,0 +1,350 @@
+/* xs */
+@media (max-width:575px) {
+     .navnav{
+          background-color: rgba(255, 255, 255, 0.8) !important;
+        
+        }
+        
+        .sections-dropdown-menu{
+            position: absolute;
+            background-color: #6195ff;
+            border-radius: 5px;
+            text-align: center;
+            /* left: %; */
+            top: -55%;
+            right: 30%;
+            width: 150px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity .5s , visibility .5s;
+            list-style: none;
+        
+        }
+     /* start contact */
+    
+    
+      
+      .content h2{
+          color: #fff;
+          font-size: 50px;
+          font-family: 'Oswald', sans-serif;
+      }
+      .content p{ 
+          font-size: 20px;
+          font-family: 'acme';
+          color: lightgray;
+      }
+      .content p span{
+          color: #D68031;
+          font-size: 22px;
+      }
+      
+      /* start form */
+      .form-back{
+          width: 100%;
+          height: 500px;
+          /* background-image: url(../images/photo-1512314889357-e157c22f938d.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover; */
+      }
+       
+      
+      .contact-form{
+          position: relative;
+          top: -120px;
+          z-index: 9;
+          background-color: #fff;
+          padding: 10px 20px;
+          width: 90%;
+          margin: auto;
+          text-align: center;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius: 5px;
+      }
+      
+      
+      
+      
+      .icons1{
+      text-align: center;}
+      
+      .icons1 .icon1{
+          text-align: center;
+          font-size: 30px;
+          margin: 40px 20px;
+          display: inline-block;
+          padding: 10px 20px;
+          transition: .5s;
+          /* border: .5px solid #fff; */
+          border-radius: 10px;
+          background-color: rgba(255, 255, 255, 0.8);
+      }
+      
+      .container2 .overlay h2{
+          margin: 40px;
+          padding-top: 8%;
+          text-align: center;
+          color: #fff;
+          font-size: 30px;
+          font-family: 'Oswald', sans-serif;
+      }
+     
+
+
+
+}
+/* Sm */
+@media (min-width:576px) and (max-width:768px) {
+     .navnav{
+          background-color: rgba(255, 255, 255, 0.8) !important;
+        
+        }
+        
+        .sections-dropdown-menu{
+            position: absolute;
+            background-color: #6195ff;
+            border-radius: 5px;
+            text-align: center;
+            /* left: %; */
+            top: -55%;
+            right: 30%;
+            width: 150px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity .5s , visibility .5s;
+            list-style: none;
+        
+        }
+     /* start contact*/
+ 
+     .content h2{
+          color: #fff;
+          font-size: 55px;
+          font-family: 'Oswald', sans-serif;
+      }
+      .content p{ 
+          font-size: 25px;
+          font-family: 'acme';
+          color: lightgray;
+      }
+      .content p span{
+          color: #D68031;
+          font-size: 27px;
+      }
+      
+      /* start form */
+      .form-back{
+          width: 100%;
+          height: 500px;
+          /* background-image: url(../images/photo-1512314889357-e157c22f938d.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover; */
+      }
+       
+      
+      .contact-form{
+          position: relative;
+          top: -120px;
+          z-index: 9;
+          background-color: #fff;
+          padding: 10px 20px;
+          width: 85%;
+          margin: auto;
+          text-align: center;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius: 5px;
+      }
+      
+      
+      
+      
+      .icons1{
+      text-align: center;}
+      
+      .icons1 .icon1{
+          text-align: center;
+          font-size: 35px;
+          margin: 40px 25px;
+          display: inline-block;
+          padding: 10px 20px;
+          transition: .5s;
+          /* border: .5px solid #fff; */
+          border-radius: 10px;
+          background-color: rgba(255, 255, 255, 0.8);
+      }
+      
+      .container2 .overlay h2{
+          margin: 40px;
+          padding-top: 8%;
+          text-align: center;
+          color: #fff;
+          font-size: 35px;
+          font-family: 'Oswald', sans-serif;
+      }
+
+}
+
+/* md */
+@media (min-width:769px) and (max-width:1050px) {
+     .navnav{
+          background-color: rgba(255, 255, 255, 0.8) !important;
+        
+        }
+        
+        .sections-dropdown-menu{
+            position: absolute;
+            background-color: #6195ff;
+            border-radius: 5px;
+            text-align: center;
+            /* left: %; */
+            top: -55%;
+            right: 30%;
+            width: 150px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity .5s , visibility .5s;
+            list-style: none;
+        
+        }
+     /* start contact */
+     .content h2{
+          color: #fff;
+          font-size: 60px;
+          font-family: 'Oswald', sans-serif;
+      }
+      .content p{ 
+          font-size: 28px;
+          font-family: 'acme';
+          color: lightgray;
+      }
+      .content p span{
+          color: #D68031;
+          font-size: 30px;
+      }
+      
+      /* start form */
+      .form-back{
+          width: 100%;
+          height: 500px;
+          /* background-image: url(../images/photo-1512314889357-e157c22f938d.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover; */
+      }
+       
+      
+      .contact-form{
+          position: relative;
+          top: -120px;
+          z-index: 9;
+          background-color: #fff;
+          padding: 10px 20px;
+          width: 80%;
+          margin: auto;
+          text-align: center;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius: 5px;
+      }
+      
+      
+      
+      
+      .icons1{
+      text-align: center;}
+      
+      .icons1 .icon1{
+          text-align: center;
+          font-size: 37px;
+          margin: 40px 25px;
+          display: inline-block;
+          padding: 10px 20px;
+          transition: .5s;
+          /* border: .5px solid #fff; */
+          border-radius: 10px;
+          background-color: rgba(255, 255, 255, 0.8);
+      }
+      
+      .container2 .overlay h2{
+          margin: 40px;
+          padding-top: 8%;
+          text-align: center;
+          color: #fff;
+          font-size: 40px;
+          font-family: 'Oswald', sans-serif;
+      }
+
+}
+
+/* lg */
+@media (min-width:1051px) and (max-width:1390px) {
+     
+     /* start contact */
+     .content h2{
+          color: #fff;
+          font-size: 70px;
+          font-family: 'Oswald', sans-serif;
+      }
+      .content p{ 
+          font-size: 30px;
+          font-family: 'acme';
+          color: lightgray;
+      }
+      .content p span{
+          color: #D68031;
+          font-size: 33px;
+      }
+      
+      /* start form */
+      .form-back{
+          width: 100%;
+          height: 500px;
+          /* background-image: url(../images/photo-1512314889357-e157c22f938d.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover; */
+      }
+       
+      
+      .contact-form{
+          position: relative;
+          top: -120px;
+          z-index: 9;
+          background-color: #fff;
+          padding: 10px 20px;
+          width: 70%;
+          margin: auto;
+          text-align: center;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border-radius: 5px;
+      }
+      
+      
+      
+      
+      .icons1{
+      text-align: center;}
+      
+      .icons1 .icon1{
+          text-align: center;
+          font-size: 45px;
+          margin: 40px 25px;
+          display: inline-block;
+          padding: 10px 20px;
+          transition: .5s;
+          /* border: .5px solid #fff; */
+          border-radius: 10px;
+          background-color: rgba(255, 255, 255, 0.8);
+      }
+      
+      .container2 .overlay h2{
+          margin: 40px;
+          padding-top: 8%;
+          text-align: center;
+          color: #fff;
+          font-size: 44px;
+          font-family: 'Oswald', sans-serif;
+      }
+
+}
